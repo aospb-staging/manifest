@@ -7,7 +7,9 @@
 
   <!-- General Repos -->
   <project path="bootable/recovery" name="bootable_recovery" remote="aospb" />
-  <project path="manifest" name="manifest" remote="aospb" />
+  <project path="manifest" name="manifest" remote="aospb" >
+    <linkfile src="merge-tag.sh" dest="merge-tag.sh" />
+  </project>
   <project path="bionic" name="bionic" remote="aospb" />
 
   <!-- Build Repos -->
