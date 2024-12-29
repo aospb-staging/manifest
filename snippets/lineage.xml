@@ -188,4 +188,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="lineage" />
   <project path="hardware/ril" name="android_hardware_ril" remote="lineage" />
 
+  <!-- Kernel -->
+  <project path="kernel/configs" name="android_kernel_configs" groups="vts,pdk" remote="lineage" />
+
 </manifest>
