@@ -22,6 +22,7 @@
 
   <!-- Vendor Repos -->
   <project path="vendor/gms" name="clarencelol/android_vendor_gms" remote="gitea" revision="15" clone-depth="1" />
+  <project path="vendor/google/overlays/ThemeIcons" name="PixelOS-AOSP/vendor_google_overlays_ThemeIcons" revision="fifteen" remote="github" />
 
   <!-- System Repos -->
   <project path="system/security" name="c0smic-Lab/system_security" revision="15" remote="github" />
