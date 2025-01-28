@@ -6,6 +6,7 @@
           revision="15.1"  />
 
   <!-- General Repos -->
+  <project path="art" name="art" remote="aospb" />
   <project path="bootable/recovery" name="bootable_recovery" remote="aospb" />
   <project path="manifest" name="manifest" remote="aospb" >
     <linkfile src="merge-tag.sh" dest="merge-tag.sh" />
