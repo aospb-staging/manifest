@@ -1420,4 +1420,7 @@
   <!-- Lineage repos -->
   <include name="snippets/lineage.xml" />
 
+  <!-- External repos -->
+  <include name="snippets/external.xml" />
+
 </manifest>
