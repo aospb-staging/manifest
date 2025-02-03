@@ -5,6 +5,10 @@
           fetch="https://github.com/aospb-staging"
           revision="15.1"  />
 
+  <remote name="aospb-devices"
+          fetch="https://github.com/aospb-devices"
+          revision="15.1"  />
+
   <!-- General Repos -->
   <project path="art" name="art" remote="aospb" />
   <project path="bootable/recovery" name="bootable_recovery" remote="aospb" />
@@ -40,7 +44,7 @@
   <!-- Vendor Repos -->
   <project path="vendor/aosp" name="vendor_aosp" remote="aospb" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="aospb" />
-  <project path="vendor/products" name="vendor_products" remote="aospb" />
+  <project path="vendor/products" name="vendor_products" remote="aospb-devices" />
 
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="aospb" />
