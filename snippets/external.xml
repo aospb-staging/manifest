@@ -8,7 +8,7 @@
           fetch="https://gitea.com/" />
 
   <!-- General Repos -->
-  <project path="build/release" name="c0smic-Lab/build_release" groups="pdk,tradefed" revision="15" remote="github" />
+  <project path="build/release" name="ProjectPixelage/android_build_release" groups="pdk,tradefed" revision="15" remote="github" />
 
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="c0smic-Lab/frameworks_av" revision="15" remote="github" />
