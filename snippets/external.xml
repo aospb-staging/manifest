@@ -24,6 +24,5 @@
 
   <!-- System Repos -->
   <project path="system/security" name="c0smic-Lab/system_security" revision="15" remote="github" />
-  <project path="system/extras" name="c0smic-Lab/system_extras" revision="15" remote="github" />
 
 </manifest>
