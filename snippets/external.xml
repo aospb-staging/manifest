@@ -15,7 +15,7 @@
 
   <!-- Packages Repos -->
   <project path="packages/apps/ParanoidSense" name="ProjectPixelage/android_packages_apps_ParanoidSense" revision="15" remote="github" />
-  <project path="packages/modules/Bluetooth" name="c0smic-Lab/packages_modules_Bluetooth" groups="pdk-cw-fs,pdk-fs" revision="15" remote="github" />
+  <project path="packages/modules/Bluetooth" name="ProjectPixelage/android_packages_modules_Bluetooth" groups="pdk-cw-fs,pdk-fs" revision="15" remote="github" />
   <project path="packages/modules/Connectivity" name="c0smic-Lab/packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" revision="15" remote="github" />
 
   <!-- Vendor Repos -->
