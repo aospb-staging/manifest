@@ -1,10 +1,10 @@
-AOSPB
+aosPB - Project
 ===========
 
 Getting started
 ---------------
 
-To get started with Android/aospb, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+To get started with Android/aosPB, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
 
 ### Spinning up the environment
 --------------
@@ -21,7 +21,7 @@ mkdir aospb && cd aospb
 
 To initialize your local repository using the aospb trees, use a command like this:
 ```
-repo init -u https://github.com/aospb-staging/manifest.git -b 15.1 --git-lfs
+repo init -u https://github.com/aospb-project/manifest.git -b 15.1 --git-lfs
 ```
 Then to sync up:
 ```
@@ -43,7 +43,7 @@ To start the build:
 ```
 brunch $device_codename
 ```
-**Note**: By default `user` build is set.
+**Note**: By default `user` build is set and default core count is `8`
 
 ### Credits
 --------------
@@ -56,4 +56,6 @@ brunch $device_codename
  * [**StatixOS**](https://github.com/StatiXOS)
  * [**Project Pixelage**](https://github.com/ProjectPixelage)
  * [**cAOSP**](https://github.com/c0smic-Lab)
+ * [**SomethingOS**](https://github.com/SomethingOS)
+ * [**DerpFest-AOSP**](https://github.com/DerpFest-AOSP)
  * ... And the list never ends.
