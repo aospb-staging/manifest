@@ -21,7 +21,7 @@ mkdir aospb && cd aospb
 
 To initialize your local repository using the aospb trees, use a command like this:
 ```
-repo init -u https://github.com/aospb-project/manifest.git -b 15.1 --git-lfs
+repo init -u https://github.com/aospb-staging/manifest.git -b 15.1 --git-lfs
 ```
 Then to sync up:
 ```

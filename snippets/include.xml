@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="aospb"
-          fetch="https://github.com/aospb-project"
+          fetch="https://github.com/aospb-staging"
           revision="15.1"  />
 
   <remote name="aospb-devices"
