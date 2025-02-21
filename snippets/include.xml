@@ -3,11 +3,11 @@
 
   <remote name="aospb"
           fetch="https://github.com/aospb-staging"
-          revision="15.1"  />
+          revision="refs/heads/15.1"  />
 
   <remote name="aospb-devices"
           fetch="https://github.com/aospb-devices"
-          revision="15.1"  />
+          revision="refs/heads/15.1"  />
 
   <!-- General Repos -->
   <project path="art" name="art" remote="aospb" />
