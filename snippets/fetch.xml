@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Common Org -->
+    <remote name="gitlab"
+            fetch="https://gitlab.com/" />
+
+    <!-- aosPB Org -->
+    <remote name="aospb"
+            fetch="https://github.com/aospb-project"
+            revision="15.2"  />
+
+    <remote name="aospb-devices"
+            fetch="https://github.com/aospb-devices"
+            revision="15.2"  />
+
+    <!-- Cosmic Lab -->
+    <remote name="lab"
+            fetch="https://github.com/c0smic-Lab/"
+            revision="15"  />
+
+</manifest>
