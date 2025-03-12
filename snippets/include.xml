@@ -36,6 +36,5 @@
 
   <!-- System repos -->
   <project path="system/core" name="system_core" remote="aospb" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="aospb" />
 
 </manifest>

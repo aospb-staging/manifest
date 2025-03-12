@@ -41,6 +41,7 @@
     <project path="system/vold" name="system_vold" remote="lab" />
     <project path="system/libziparchive" name="system_libziparchive" remote="lab" />
     <project path="system/extras" name="system_extras" remote="lab" />
+    <project path="system/sepolicy" name="system_sepolicy" remote="lab" />
 
     <!-- Vendor Repos -->
     <project path="vendor/gms" name="rayavanindra/vendor_gms" remote="gitlab" revision="15" clone-depth="1" />
