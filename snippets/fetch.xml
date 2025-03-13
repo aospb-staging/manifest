@@ -21,4 +21,10 @@
             fetch="https://github.com/c0smic-Lab/"
             revision="15"  />
 
+    <!-- LineageOS -->
+    <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          review="https://review.lineageos.org/"
+          revision="refs/heads/lineage-22.2" />
+
 </manifest>
