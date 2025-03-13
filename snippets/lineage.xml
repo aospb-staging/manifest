@@ -78,8 +78,10 @@
   </project>
 
   <!-- Packages -->
+  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="lineage" />
   <project path="packages/apps/Camelot" name="android_packages_apps_Camelot" remote="lineage" />
   <project path="packages/apps/SimpleSettingsConfig" name="android_packages_apps_SimpleSettingsConfig" remote="lineage" />
+  <project path="packages/modules/adb" name="android_packages_modules_adb" groups="pdk" remote="lineage" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
   <!-- Prebuilt Stuff -->
