@@ -2,7 +2,6 @@
 <manifest>
 
     <!-- General Repos -->
-    <project path="build/release" name="build_release" groups="pdk,tradefed" remote="lab" />
     <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="lab" />
     <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="lab" />
 
