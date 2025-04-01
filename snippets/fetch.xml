@@ -9,7 +9,7 @@
 
     <!-- aosPB Org -->
     <remote name="aospb"
-            fetch="https://github.com/aospb-project"
+            fetch="https://github.com/aospb-staging"
             revision="15.2"  />
 
     <remote name="aospb-devices"
