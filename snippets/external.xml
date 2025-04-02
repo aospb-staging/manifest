@@ -39,6 +39,6 @@
     <project path="system/sepolicy" name="system_sepolicy" remote="lab" />
 
     <!-- Vendor Repos -->
-    <project path="vendor/gms" name="rayavanindra/vendor_gms" remote="gitlab" revision="15" clone-depth="1" />
+    <project path="vendor/gms" name="pixelos-aosp/vendor_gms" remote="gitlab" revision="fifteen" clone-depth="1" />
 
 </manifest>
