@@ -40,5 +40,6 @@
 
     <!-- Vendor Repos -->
     <project path="vendor/gms" name="pixelos-aosp/vendor_gms" remote="gitlab" revision="fifteen" clone-depth="1" />
+    <project path="vendor/google/overlays/ThemeIcons" name="PixelOS-AOSP/vendor_google_overlays_ThemeIcons" revision="fifteen" remote="github" />
 
 </manifest>
