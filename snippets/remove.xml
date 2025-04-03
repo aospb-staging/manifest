@@ -65,6 +65,7 @@
   <remove-project name="device/google/comet-sepolicy" />
 
   <!-- external repos -->
+  <remove-project name="platform/external/cronet" />
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/gptfdisk" />
