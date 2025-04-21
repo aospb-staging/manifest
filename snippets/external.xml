@@ -1,41 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- General Repos -->
-    <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="lab" />
-    <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="lab" />
-
-    <!-- External Repos -->
-    <project path="external/dtc" name="external_dtc" remote="lab" />
-    <project path="external/gptfdisk" name="external_gptfdisk" remote="lab" />
-    <project path="external/mksh" name="external_mksh" remote="lab" />
-    <project path="external/e2fsprogs" name="external_e2fsprogs" remote="lab" />
-    <project path="external/tinycompress" name="external_tinycompress" remote="lab" />
-    <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="lab" />
-    <project path="external/zstd" name="external_zstd" groups="pdk" remote="lab" />
-
     <!-- Frameworks Repos -->
     <project path="frameworks/av" name="frameworks_av" remote="lab" />
     <project path="frameworks/native" name="frameworks_native" remote="lab" />
 
-    <!-- Hardware Repos -->
-    <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="lab" />
-    <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="lab" />
-
     <!-- Packages Repos -->
-    <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="lab" />
     <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="lab" />
     <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="lab" />
-
-    <!-- System Repos -->
-    <project path="system/bpf" name="system_bpf" remote="lab" />
-    <project path="system/libhidl" name="system_libhidl" remote="lab" />
-    <project path="system/security" name="system_security" remote="lab" />
-    <project path="system/update_engine" name="system_update_engine" remote="lab" />
-    <project path="system/vold" name="system_vold" remote="lab" />
-    <project path="system/libziparchive" name="system_libziparchive" remote="lab" />
-    <project path="system/extras" name="system_extras" remote="lab" />
-    <project path="system/sepolicy" name="system_sepolicy" remote="lab" />
+    <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="lab" />
 
     <!-- Vendor Repos -->
     <project path="vendor/gms" name="pixelos-aosp/vendor_gms" remote="gitlab" revision="fifteen" clone-depth="1" />
