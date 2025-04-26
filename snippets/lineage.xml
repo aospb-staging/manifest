@@ -3,6 +3,7 @@
 
   <!-- General Repos -->
   <project path="bootable/deprecated-ota" name="android_bootable_deprecated-ota" remote="lineage" />
+  <project path="lineage-sdk" name="android_lineage-sdk" remote="lineage" />
 
   <!-- ANT wireless -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="lineage" />
