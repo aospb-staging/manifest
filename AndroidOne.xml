@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="AndroidOne"
+           fetch="https://github.com/AndroidOne-Experience"
+           review=".."
+           revision="refs/heads/15" />
+
+  <!-- art -->
+  <project path="art" name="art" groups="pdk" remote="AndroidOne" />
+
+  <!-- bootable -->
+  <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" groups="pdk-cw" remote="AndroidOne" />
+
+  <!-- build -->
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed,sysui-studio" remote="AndroidOne" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- device -->
+  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="AndroidOne" />
+
+  <!-- external -->
+  <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="AndroidOne" />
+
+  <!-- frameworks -->
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="AndroidOne" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="AndroidOne" />
+
+  <!-- packages -->
+
+  <!-- system -->
+  <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="AndroidOne" />
+
+  <!-- vendor -->
+  <project path="vendor/gms" name="vendor_gms" remote="AndroidOne" clone-depth="1" />
+
+</manifest>

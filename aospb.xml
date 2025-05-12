@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="staging"
+           fetch="https://github.com/aospb-staging"
+           review=".."
+           revision="refs/heads/15" />
+
+  <!-- bionic -->
+  <project path="bionic" name="bionic" groups="pdk" remote="staging" />
+
+  <!-- bootable -->
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="staging" />
+
+  <!-- build -->
+  <project path="build/make" name="build" groups="pdk,sysui-studio" remote="staging" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <!-- frameworks -->
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="staging" />
+
+  <!-- packages -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc" remote="staging" />
+  <!-- <project path="packages/apps/Updater" name="packages_apps_Updater" remote="staging" /> -->
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="staging" />
+
+  <!-- system -->
+  <project path="system/core" name="system_core" groups="pdk" remote="staging" />
+
+  <!-- vendor -->
+  <project path="vendor/aosp" name="vendor_aosp" remote="staging" />
+
+</manifest>
