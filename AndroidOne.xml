@@ -22,6 +22,7 @@
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="AndroidOne" />
 
   <!-- external -->
+  <project path="external/bouncycastle" name="external_bouncycastle" groups="pdk" remote="AndroidOne" />
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="AndroidOne" />
 
   <!-- frameworks -->
