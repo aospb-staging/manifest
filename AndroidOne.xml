@@ -30,6 +30,9 @@
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="AndroidOne" />
 
   <!-- packages -->
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="AndroidOne" />
+  <project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="AndroidOne" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="AndroidOne" />
   <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" groups="pdk-fs" remote="AndroidOne" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="AndroidOne" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="AndroidOne" />
