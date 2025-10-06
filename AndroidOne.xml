@@ -36,6 +36,7 @@
   <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" groups="pdk-fs" remote="AndroidOne" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="AndroidOne" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="AndroidOne" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="AndroidOne" />
 
   <!-- system -->
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="AndroidOne" />
