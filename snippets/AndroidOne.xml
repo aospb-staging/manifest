@@ -41,7 +41,6 @@
 
   <!-- system -->
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="AndroidOne" />
-  <project path="system/core" name="system_core" groups="pdk" remote="AndroidOne" />
 
   <!-- vendor -->
   <project path="vendor/certification" name="vendor_certification" remote="AndroidOne" />

@@ -32,6 +32,7 @@
   <!-- <project path="packages/apps/Updater" name="packages_apps_Updater" remote="staging" /> -->
 
   <!-- system -->
+  <project path="system/core" name="system_core" groups="pdk" remote="staging" />
 
   <!-- vendor -->
   <project path="vendor/aosp" name="vendor_aosp" remote="staging" />
