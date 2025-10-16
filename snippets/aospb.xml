@@ -4,6 +4,9 @@
            fetch="https://github.com/aospb-staging"
            review=".."
            revision="refs/heads/15.2-wip" />
+  
+  <remote  name="github"
+           fetch="https://github.com/" />
 
   <!-- bionic -->
   <project path="bionic" name="bionic" groups="pdk" remote="staging" />
@@ -32,5 +35,6 @@
 
   <!-- vendor -->
   <project path="vendor/aosp" name="vendor_aosp" remote="staging" />
+  <project path="vendor/products" name="aospb-devices/vendor_products" remote="github" revision="15.2" />
 
 </manifest>
