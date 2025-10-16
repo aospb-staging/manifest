@@ -3,7 +3,7 @@
   <remote  name="staging"
            fetch="https://github.com/aospb-staging"
            review=".."
-           revision="refs/heads/15" />
+           revision="refs/heads/15.2-wip" />
 
   <!-- bionic -->
   <project path="bionic" name="bionic" groups="pdk" remote="staging" />
