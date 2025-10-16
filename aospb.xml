@@ -27,10 +27,8 @@
   <!-- packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc" remote="staging" />
   <!-- <project path="packages/apps/Updater" name="packages_apps_Updater" remote="staging" /> -->
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="staging" />
 
   <!-- system -->
-  <project path="system/core" name="system_core" groups="pdk" remote="staging" />
 
   <!-- vendor -->
   <project path="vendor/aosp" name="vendor_aosp" remote="staging" />
