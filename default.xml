@@ -1066,9 +1066,9 @@
 
 <!-- Track our Fork repos -->
   <include name="remove.xml" />
-  <include name="lineage.xml" />
-  <include name="aospb.xml" />
-  <include name="AndroidOne.xml" />
+  <include name="snippets/lineage.xml" />
+  <include name="snippets/aospb.xml" />
+  <include name="snippets/AndroidOne.xml" />
 <!-- Track our Fork repos -->
 
 </manifest>
