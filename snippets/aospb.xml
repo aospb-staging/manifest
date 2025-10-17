@@ -37,5 +37,6 @@
   <!-- vendor -->
   <project path="vendor/aosp" name="vendor_aosp" remote="staging" />
   <project path="vendor/products" name="aospb-devices/vendor_products" remote="github" revision="15.2" />
+  <project path="vendor/certification" name="vendor_certification" remote="staging" />
 
 </manifest>
