@@ -67,6 +67,7 @@
   <remove-project name="platform/external/avb" />
   <remove-project name="platform/external/bouncycastle" />
   <remove-project name="platform/external/cronet" />
+  <remove-project name="platform/external/dng_sdk" />
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/exfatprogs" />
@@ -74,6 +75,7 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/setupcompat" />
   <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zstd" />
@@ -105,6 +107,7 @@
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/CertInstaller" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/EmergencyInfo" />
   <remove-project name="platform/packages/apps/Nfc" />
